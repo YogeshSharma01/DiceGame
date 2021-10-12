@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Dice Game</title>
+    <link rel="icon" href="https://5.imimg.com/data5/BA/QP/MY-50614855/handmade-wooden-dice-500x500.jpg" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+    <div id="head">   
+         <h1>Roll The Dice </h1> <img class="dice_gif" src="https://images.squarespace-cdn.com/content/v1/57f55aae5016e18aceeac449/1556005790616-P9HXIF9ZQ6BIWL0C5TRD/Tumbling-Dice_No-Text_GIF.gif?format=1500w" alt="dice"> 
+    </div>
+    <div id="shuffle">
+        <p>Selected Variable : <span id="match">0</span></p>
+        <button id="dice">0</button>
+        <p class="board">Score : <span id="score">0</span></p>
+    </div>
+    <div>
+            <button id="btn" value="1" onclick="myFunction(this)">1</button>
+            <button id="btn" value="2" onclick="myFunction(this)">2</button>
+            <button id="btn" value="3" onclick="myFunction(this)">3</button>
+        </div>
+        <div>
+            <button id="btn" value="4" onclick="myFunction(this)">4</button>
+            <button id="btn" value="5" onclick="myFunction(this)">5</button>
+            <button id="btn" value="6" onclick="myFunction(this)">6</button>
+        </div>
+
+        <p id="show"></p>
+
+        <h2 id="display1">Loading! Game will Start in a few seconds!</h2>
+        <h2 id="display2">Dice will be change in <span id="N">3</span> seconds!</h2>
+    </main>
+
+     <script src="./index.js"></script>
+</body>
+</html>

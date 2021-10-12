@@ -1,0 +1,52 @@
+body{
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/010/772/318/original/nabeel-najeeb-dicegif.gif?1526145052');
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.dice_gif{
+    height: 25vh;
+    
+}
+#head{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#shuffle{
+    display: flex;
+}
+#dice{
+    width: 7vh;
+    height: 7vh;
+    border: none;
+    border-radius: 2vh;
+    margin-left: 5vh;
+}
+.board{
+    margin-left: 5vh;
+}
+#btn{
+    width: 4rem;
+    height: 4rem;
+    margin: 2vh;
+    border-radius: 1vh;
+}
+#display2{
+    display: none;
+}
+main{
+    margin-left: 35%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main{
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    main{
+        margin-left: 5%;
+    }
+}
